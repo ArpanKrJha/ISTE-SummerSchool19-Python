@@ -37,29 +37,6 @@ def checktic():
     if full==1:
         print('Game over')
         return 1
-#    for i in range(1,8,3):
-#        if grid[i]==grid[i+1]==grid[i+2]=='X':
-#            print('Game Over')
-#            print('Player X wins')
-#            return 1
-#
-#        elif grid[i]==grid[i+1]==grid[i+2]=='O':
-#            print('Game Over')
-#            print('Player O wins')
-#            return 1
-#
-#    for i in range(1,4,1):
-#        if grid[i]==grid[i+3]==grid[i+6]=='X':
-#            print('Game Over')
-#            print('Player X wins')
-#            return 1
-#
-#        elif grid[i]==grid[i+3]==grid[i+6]=='O':
-#            print('Game Over')
-#            print('Player O wins')
-#            return 1
-#
-
 
     if grid[1]==grid[5]==grid[9]=='X' or grid[3]==grid[5]==grid[7]=='X' or\
     grid[1]==grid[2]==grid[3]=='X' or grid[4]==grid[5]==grid[6]=='X' or\
